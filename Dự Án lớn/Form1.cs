@@ -21,5 +21,14 @@ namespace Dự_Án_lớn
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            ThayTB();
+        }
+        void ThayTB()
+        {
+            textBox2.Text = "ngu";
+        }
     }
 }

@@ -50,9 +50,9 @@
             this.txtTim = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -272,22 +272,6 @@
             this.panel1.Size = new System.Drawing.Size(539, 196);
             this.panel1.TabIndex = 13;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 151);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Lớp Học";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(322, 19);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(124, 20);
-            this.textBox5.TabIndex = 11;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -296,6 +280,22 @@
             this.label7.Size = new System.Drawing.Size(69, 13);
             this.label7.TabIndex = 12;
             this.label7.Text = "Mã Học Viên";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(322, 19);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(124, 20);
+            this.textBox5.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 151);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Lớp Học";
             // 
             // Form1
             // 
@@ -307,6 +307,7 @@
             this.Controls.Add(this.panel3);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
